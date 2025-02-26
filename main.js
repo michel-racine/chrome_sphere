@@ -16,8 +16,8 @@ document.body.appendChild(renderer.domElement);
 const loader = new THREE.CubeTextureLoader();
 const skybox = loader.load([
 
-  'orion.jpg',
-  'orion.jpg',
+  'orion2.jpg',
+  'orion2.jpg',
   'orion.jpg',
   'orion.jpg',
   'orion.jpg',
