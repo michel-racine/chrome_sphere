@@ -1,4 +1,3 @@
-// import * as THREE from 'three';
 let factor = 1;
 // Scene, Camera, Renderer
 const scene = new THREE.Scene();
@@ -15,7 +14,6 @@ document.body.appendChild(renderer.domElement);
 // Load Skybox
 const loader = new THREE.CubeTextureLoader();
 const skybox = loader.load([
-
   'orion2.jpg',
   'orion2.jpg',
   'orion.jpg',
@@ -45,8 +43,8 @@ scene.add(directionalLight);
 
 // Camera Position
 camera.position.z = 3;
-// directionalLight.position.copy(camera.position);
-directionalLight.position.set(0, 4, -4); // Light coming from top-right-front
+directionalLight.position.copy(camera.position);
+//directionalLight.position.set(0, 4, -4); // Light coming from top-right-front
 // Animation Loop
 let r = 0.25;
 let t = 0;
