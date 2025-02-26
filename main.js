@@ -14,12 +14,18 @@ document.body.appendChild(renderer.domElement);
 // Load Skybox
 const loader = new THREE.CubeTextureLoader();
 const skybox = loader.load([
-  'orion2.jpg',
-  'orion2.jpg',
-  'orion.jpg',
-  'orion.jpg',
-  'orion.jpg',
-  'orion.jpg',
+  // 'orion2.jpg',
+  // 'orion2.jpg',
+  // 'orion.jpg',
+  // 'orion.jpg',
+  // 'orion.jpg',
+  // 'orion.jpg',
+  'xp.png',
+  'xn.png',
+  'yp.png',
+  'yn.png',
+  'zp.png',
+  'zn.png',
 ]);
 scene.background = skybox;
 
