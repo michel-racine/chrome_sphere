@@ -49,7 +49,7 @@ camera.position.z = 3;
 directionalLight.position.set(0, 4, -4); // Light coming from top-right-front
 // Animation Loop
 let r = 0.25;
-
+let t = 0;
 function animate() {
   requestAnimationFrame(animate);
   // sphere.rotation.y += 0.01; // Slow rotation
