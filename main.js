@@ -59,7 +59,7 @@ function animate() {
 
   t += 0.01;
   sphere.position.z = -4;
-  sphere.position.y = -1;
+  sphere.position.y = 0;
   sphere.rotation.y += 0.0026 * factor;
   // sphere.rotation.z += 0.0015 * factor;
   // sphere.rotation.y = Math.cos(t);
