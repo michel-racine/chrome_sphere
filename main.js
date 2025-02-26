@@ -16,12 +16,12 @@ document.body.appendChild(renderer.domElement);
 const loader = new THREE.CubeTextureLoader();
 const skybox = loader.load([
 
-  'skate.png',
-  'skate.png',
-  'skate.png',
-  'skate.png',
-  'skate.png',
-  'skate.png',
+  'orion.png',
+  'orion.png',
+  'orion.png',
+  'orion.png',
+  'orion.png',
+  'orion.png',
 ]);
 scene.background = skybox;
 
