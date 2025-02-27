@@ -49,9 +49,8 @@ scene.add(diamond);
 let r = 0.25; // Radius
 let t = 0; // Theta or time delta
 
-diamond.position.z = -4;
+diamond.position.z = -5;
 diamond.position.y = 0;
-diamond.position.z = -2;
 
 function animate() {
   t += 0.01;
