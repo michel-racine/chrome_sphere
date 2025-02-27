@@ -51,7 +51,7 @@ let t = 0; // Theta or time delta
 
 diamond.position.z = -4;
 diamond.position.y = 0;
-diamond.position.z = 1;
+diamond.position.z = -2;
 
 function animate() {
   t += 0.01;
